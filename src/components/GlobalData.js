@@ -40,7 +40,7 @@ export default function GlobalData({ country }) {
   useEffect(() => {
     async function fetchGlobalData() {
       setDataLoading(true);
-      const url = `https://covid19.mathdro.id/api/countries/${country}`;
+      const url = `https://covid19.mathdro.id/api/countries/${country || "PK"}`;
       const apiResponse = await fetch(url);
       const apiData = await apiResponse.json();
       setGlobalData(apiData);

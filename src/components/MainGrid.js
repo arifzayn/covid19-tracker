@@ -46,7 +46,7 @@ export default function MainGrid() {
                 "Loading"
               ) : (
                 <NativeSelect
-                  defaultValue=""
+                  defaultValue="PK"
                   onChange={(e) => setCountry(e.target.value)}
                 >
                   <option value="">Select Country</option>
