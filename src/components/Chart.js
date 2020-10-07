@@ -27,7 +27,7 @@ export default function Chart({ d }) {
           d && d.recovered && d.recovered.value,
           d && d.deaths && d.deaths.value,
         ],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+        backgroundColor: ["black", "green", "#d90429"],
         hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFC56"],
       },
     ],
