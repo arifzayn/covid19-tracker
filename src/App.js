@@ -1,21 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Header from "./components/Header";
+import MainGrid from "./components/MainGrid";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://twitter.com/zayn_css"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Arif Zain Twitter
-        </a>
-      </header>
+    <div>
+      <Header />
+      <MainGrid />
     </div>
   );
 }
